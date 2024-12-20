@@ -165,7 +165,7 @@ Nowadays modern CPUs can have multiple https://en.wikipedia.org/wiki/Non-uniform
 
 image::numa.png[NUMA lstopo output]
 
-We can now verify that binding the application to run in 2 physical cores in the same NUMA node would produce a different effect than running over the same.
+We can now verify that binding the application to run in 2 physical cores in the same NUMA node would produce a different effect than running on different ones.
 
 Running on the same node (in node 0):
 
